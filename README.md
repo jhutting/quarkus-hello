@@ -9,7 +9,7 @@ Set Path, JAVA_HOME and GRAALVM_HOME to GraalVM 23 folder.
 You can create a native executable using:
 
 ```shell script
-./mvnw package -Dnative
+.\mvnw.cmd package -Dnative
 ```
 
 This will now crash the build as described in [this issue](https://github.com/oracle/graal/issues/9727)
